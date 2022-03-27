@@ -4,7 +4,7 @@
 
 ## Live demo link
 
-[🔗 Live demo](TODO)
+[🔗 Live demo](https://aronmandrella.github.io/landing-page-with-ssr-and-data-fetching/)
 
 ## How to install and run
 
@@ -20,7 +20,6 @@ Build and prepare for hosting
 ```
 npm install
 npm run build
-npm run export
 ```
 
 ## Specifications:
