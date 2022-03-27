@@ -8,20 +8,30 @@
 
 ## How to install and run
 
+Run in dev mode
+
 ```
 npm install
 npm run dev
 ```
 
+Build and prepare for hosting
+
+```
+npm install
+npm run build
+npm run export
+```
+
 ## Specifications:
 
-✔️ Does SSR based on data provided by CMS (CMS gives a url, and a JSON that describes what should be rendered)
-
-✔️ API responses are validated, and error is displayed when needed.
-
-✔️ Responsive UI.
-
 ✔️ Uses Next.js + React + TypeScript + Tailwind CSS.
+
+✔️ Does SSR based on data provided by CMS (CMS gives some multi-path url, and a JSON that describes what should be rendered at given url)
+
+✔️ All API responses (GET + POST) are validated, and error is displayed when needed.
+
+✔️ Has Responsive UI.
 
 ## Note about Tailwind CSS:
 
