@@ -1,0 +1,9 @@
+.root {
+}
+
+.root.theme-default {
+  @apply bg-surface-1 text-on-surface-1;
+}
+.root.theme-contrast {
+  @apply bg-contrast-surface-1 text-on-contrast-surface-1;
+}

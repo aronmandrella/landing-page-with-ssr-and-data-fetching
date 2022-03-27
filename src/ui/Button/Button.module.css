@@ -1,0 +1,21 @@
+.root {
+  /* Shared font */
+  @apply text-center text-base font-sans font-regular;
+
+  /* Shared transitions */
+  @apply transition-opacity duration-75;
+
+  /* Other shared */
+  @apply cursor-pointer;
+}
+
+.root.theme-filled {
+  outline: none;
+
+  @apply px-1.5 py-0.75 min-w-12 rounded-full ring-4 ring-transparent;
+  @apply text-on-primary bg-primary focus:ring-primary/30;
+  @apply hover:opacity-90 active:opacity-70;
+}
+.root.theme-filled.disabled {
+  @apply bg-surface-3 pointer-events-none;
+}

@@ -1,0 +1,12 @@
+.root {
+  @apply text-base font-sans font-regular;
+  @apply min-w-0 py-0.75 px-2 outline-none ring-1 ring-inset ring-transparent rounded-full;
+  @apply focus:placeholder:text-transparent;
+  @apply transition-colors duration-75;
+
+  @apply text-on-surface-1 bg-surface-2 placeholder:text-on-surface-1 focus:ring-surface-4;
+}
+
+.root.error {
+  @apply text-error placeholder:text-error focus:ring-error;
+}
