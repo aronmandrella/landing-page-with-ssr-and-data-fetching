@@ -1,4 +1,4 @@
-# Landing page with SSR and data fetching (recruitment task)
+# Landing page with SSR and data fetching (basic technology test app)
 
 ![ui_demo](https://raw.githubusercontent.com/aronmandrella/landing-page-with-ssr-and-data-fetching/master/ui_demo_1.PNG)
 
